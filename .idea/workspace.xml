@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f820e72e-fb88-41ac-b598-3f2bf062394d" name="Default" comment="" />
+    <list default="true" id="f820e72e-fb88-41ac-b598-3f2bf062394d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/config/EverythingLikeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/common/FileConvertThing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/index/FileScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/index/impl/Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/interceptor/FileInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/interceptor/impl/FileIndexInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/interceptor/impl/FilePrintInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/impl/FileScanImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything-like.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/dao/DataSourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/dao/DataSourceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/dao/impl/FileIndexDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/dao/impl/FileIndexDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/index/FileIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/model/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/model/Condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/model/FileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/model/FileType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/FileSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/FileSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/FileSearchImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/impl/FileIndexImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/impl/FileSearchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/impl/FileSearchImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/everything_like.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/everything_like.sql" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,35 +35,199 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="DataSourceFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/dao/DataSourceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1037">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="1444">
+              <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bittech/App.java">
+      <file leaf-file-name="EverythingLikeConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/config/EverythingLikeConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="494">
+              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileScan.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/index/FileScan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileScanImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/impl/FileScanImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1382#1383#0" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Impl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/index/impl/Impl.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="FileConvertThing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/common/FileConvertThing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileIndexDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/dao/impl/FileIndexDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="everything_like.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/everything_like.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EverythingLikeCmdApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/cmd/EverythingLikeCmdApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="C:/MyDownloads/Download" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/cmd/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/ui/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/config/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/cmd/EverythingCmdApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/cmd/EverythingLikeCmdApp.java" />
+        <option value="$PROJECT_DIR$/.git/info/exclude" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/model.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/model/Thing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/search/FileSearchImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/dao/FileIndexDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/model/FileType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/model/Condition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/search/impl/FileSearchImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/index/FileIndex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/search/impl/FileIndexImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/search/FileSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/dao/DataSourceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/dao/FileIndexDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bittech/core/dao/impl/FileIndexDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/model/Thing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/cmd/EverythingLikeCmdApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/cmd/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/config/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/dao/FileIndexDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/index/Thing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/index/FileIndex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/FileSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/FileSearchImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/impl/FileSearchImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/impl/FileIndexImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/model/Condition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/config/EverythingLikeConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/model/FileType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/interceptor/FileInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/interceptor/impl/FilePrintInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/interceptor/impl/FileIndexInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/index/FileScan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/impl/FileScanImpl.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/resources/everything_like.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/dao/impl/FileIndexDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/index/impl/FileScanImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/common/FileConvertThing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixiaobai/core/dao/DataSourceFactory.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -70,6 +258,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="everything-like" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="everything-like" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -77,10 +270,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-25" />
-    <option name="width" value="1380" />
-    <option name="height" value="780" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-35" />
+    <option name="width" value="1935" />
+    <option name="height" value="1095" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -119,24 +312,101 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bittech" type="462c0819:PsiDirectoryNode" />
+              <item name="shixiaobai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everything-like" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everything-like" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shixiaobai" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everything-like" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everything-like" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shixiaobai" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everything-like" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="everything-like" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="everything-like" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="4f95cb2e-22f0-44a1-9386-2e175e10fcf5" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="everything-like" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="everything-like" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="everything-like" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="everything-like" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="extractors" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="everything-like" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="schema" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/workspace" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2&#10;MySQL" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/bittech/core/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.shixiaobai.core.index" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\20704\Desktop\everything-like\target\classes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,7 +420,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.EverythingLikeCmdApp">
+    <configuration name="DataSourceFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bittech.core.dao.DataSourceFactory" />
+      <module name="everything-like" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bittech.core.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="EverythingLikeCmdApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shixiaobai.cmd.EverythingLikeCmdApp" />
+      <module name="everything-like" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shixiaobai.cmd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="EverythingLikeConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shixiaobai.config.EverythingLikeConfig" />
+      <module name="everything-like" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shixiaobai.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FileIndexDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bittech.core.dao.impl.FileIndexDaoImpl" />
+      <module name="everything-like" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bittech.core.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FileType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bittech.core.model.FileType" />
+      <module name="everything-like" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bittech.core.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -192,6 +517,22 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.FileType" />
+      <item itemvalue="Application.DataSourceFactory" />
+      <item itemvalue="Application.FileIndexDaoImpl" />
+      <item itemvalue="Application.EverythingLikeConfig" />
+      <item itemvalue="Application.EverythingLikeCmdApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EverythingLikeCmdApp" />
+        <item itemvalue="Application.EverythingLikeConfig" />
+        <item itemvalue="Application.FileIndexDaoImpl" />
+        <item itemvalue="Application.FileType" />
+        <item itemvalue="Application.DataSourceFactory" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -205,12 +546,36 @@
       <updated>1550144688136</updated>
       <workItem from="1550144692955" duration="4124000" />
       <workItem from="1550192881635" duration="3474000" />
-      <workItem from="1550204870678" duration="4556000" />
+      <workItem from="1550204870678" duration="7573000" />
+      <workItem from="1550279343524" duration="9299000" />
+      <workItem from="1550386440737" duration="11961000" />
+      <workItem from="1550399070103" duration="581000" />
+      <workItem from="1550399748917" duration="90000" />
+      <workItem from="1550399894823" duration="134000" />
+      <workItem from="1550472039778" duration="1660000" />
+      <workItem from="1550489222018" duration="599000" />
+      <workItem from="1550553347929" duration="758000" />
+      <workItem from="1550663023072" duration="7528000" />
+      <workItem from="1550734753486" duration="584000" />
+      <workItem from="1550737480492" duration="12000" />
+      <workItem from="1551944911755" duration="9033000" />
+      <workItem from="1551953980250" duration="107000" />
+      <workItem from="1551954110158" duration="907000" />
+      <workItem from="1552052856215" duration="599000" />
+      <workItem from="1552205884754" duration="4256000" />
+      <workItem from="1552315495086" duration="199000" />
+      <workItem from="1552315757105" duration="1024000" />
+      <workItem from="1552473115330" duration="463000" />
+      <workItem from="1552473864770" duration="239000" />
+      <workItem from="1552641799583" duration="707000" />
+      <workItem from="1552828219564" duration="418000" />
+      <workItem from="1553267459123" duration="5000" />
+      <workItem from="1555132705476" duration="15302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12154000" />
+    <option name="totallyTimeSpent" value="81636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -222,36 +587,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-28" y="0" width="1548" height="876" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985782" weight="0.32826087" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.09986595" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013423" side_tool="true" weight="0.32573727" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31541726" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4985782" weight="0.32826087" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.6912752" weight="0.33557048" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2637584" />
+      <window_info anchor="right" id="Database" order="1" weight="0.10604027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.2492891" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32909605" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80067116" weight="0.33154362" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49952605" weight="0.32826087" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4986577" weight="0.57986575" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.1704698" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,39 +625,101 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/dao/DataSourceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="1444">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bittech/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/config/EverythingLikeConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/index/FileScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/search/impl/FileScanImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/index/impl/Impl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/common/FileConvertThing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/core/dao/impl/FileIndexDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/everything_like.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixiaobai/cmd/EverythingLikeCmdApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1037">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bittech/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="722">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@
 
 
 
-  <groupId>com.bittech</groupId>
+  <groupId>com.shixiaobai</groupId>
 
   <artifactId>everything-like</artifactId>
 
@@ -113,9 +113,11 @@
       <version>1.1.2</version>
 
     </dependency>
-
-
-
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13-beta-2</version>
+    </dependency>
   </dependencies>
 
 
@@ -137,6 +139,7 @@
         <version>3.6.1</version>
 
       </plugin>
+      <!--依赖管理插件-->
 
       <!--打包插件-->
 
